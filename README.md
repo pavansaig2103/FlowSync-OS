@@ -36,7 +36,10 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install dependencies
+pip install uvicorn fastapi
 pip install -r requirements.txt
+pip install groq python-dotenv requests
+pip install tavily-python
 
 # Create .env file inside backend folder
 GROQ_API_KEY="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"
